@@ -1,0 +1,173 @@
+html {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  html {
+    height: 100%;
+  }
+  /*body styles*/
+  body {
+      color: chartreuse;
+
+      height: 100%;
+      background: url(images/ZenGardenBackgroundNewGhostlyImagery.png) fixed;
+      background-size: cover;
+      background-position: cover;
+      background-repeat: no-repeat;
+      margin: 11em 22em 13em 22em;
+      Font-Family: 'Overpass', Sans-Serif;
+      Font-Size: 17px;
+  }
+  body .summary, .preamble, .explanation, .participation, .benefits, .requirements {
+    background-color: rgba(32, 4, 32, .5);
+    border-radius: .5em;
+    padding: 0 1em;
+  }
+  .preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+    font-size: 1.2em;
+    color: rgb(32, 4, 32);
+    background-color: rgba(21, 255, 0, .7);
+    border-radius: 2em;
+  }
+  .preamble h3 {
+    padding-left: .8em;
+  }
+  .explanation h3 {
+    padding-left: .8em;
+  }
+  .participation h3 {
+    padding-left: .8em;
+  }
+  .benefits h3 {
+    padding-left: .8em;
+  }
+.requirements h3 {
+  padding-left: .8em;
+}
+/*a sytles*/
+a:link {
+    color: red;
+  }
+a:visited {
+  color: rgb(187, 187, 187);
+}
+a:hover {
+  color: rgb(255, 82, 203);
+}
+a:active {
+  color: rgb(0, 0, 255);
+}
+/*header styles*/
+header {
+  border-top-right-radius: .5em;
+  border-top-left-radius: 2em;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: 2em;
+  border-style: double;
+  border-width: 1em;
+  border-color: rgba(127, 255, 0, .5);
+  position: absolute;
+  background-position: center;
+  top: 0px;
+  left: 251px;
+  height: 178px;
+  width: 710px;
+  background-size: 710px 178px;
+  z-index: 5;
+  Font-Family: 'Permanent Marker', Cursive;
+  }
+h1 {
+  margin-top: -5px;
+  margin-left: 50px;
+  font-size: 3em;
+  text-shadow: .1em .1em black;
+  }
+h2 {
+  margin-top: -15px;
+  margin-left: 300px;
+  text-shadow: .1em .1em black;
+  }
+  
+/*design-selection styles*/
+.design-selection .select {
+  padding-top: 2em;
+  margin-left: 1.3em;
+  font-size:  2em;
+  color: rgb(255, 0, 0);
+  Font-Family: 'Permanent Marker', Cursive;
+  text-shadow: .1em .1em black;
+}
+.design-selection {
+      position: relative;
+      font-size: small;
+      background-image: url(images/graveStone.png);
+      width: 284px;
+      height: 390px;
+      left: 200px;
+  }
+
+#design-selection {
+  color: rgb(0, 0, 0);
+}
+
+#design-selection a {
+    Font-Family: 'Permanent Marker', Cursive;
+
+  }
+
+/*archives styles*/
+.design-archives {
+  position: relative;
+  background-image: url(images/graveStone.png);
+  width: 284px;
+  height: 390px;
+  margin: -4.5em 0;
+}
+.archives {
+  padding-top: 2em;
+  margin-left: 1.3em;
+  font-size:  2em;
+  color: rgb(255, 0, 0);
+  Font-Family: 'Permanent Marker', Cursive;
+  text-shadow: .1em .1em black;
+}
+.design-archives {
+  padding-left: 1.2em;
+}
+.design-archives ul {
+  Font-Family: 'Permanent Marker', Cursive;
+}
+#design-archives {
+  color: black;
+}
+
+/*resources styles*/
+.resources {
+  padding-top: 2em;
+  margin-left: 1.3em;
+  font-size:  2em;
+  color: rgb(255, 0, 0);
+  Font-Family: 'Permanent Marker', Cursive;
+  text-shadow: .1em .1em black;
+}
+.zen-resources {
+  Font-Family: 'Permanent Marker', Cursive;
+    position: absolute;
+    background-image: url(images/graveStone.png);
+    width: 284px;
+    height: 390px;
+    right: 400px;
+    padding-left: .8em;
+    margin: -4.5em 0;
+  }
+#zen-resources {
+  color: black;
+}
+/*footer styles*/
+footer {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
